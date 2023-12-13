@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace pe_project
 {
-    public class Program
+    class Program
     {
         public static int GCD(int a, int b)
         {
@@ -24,6 +24,7 @@ namespace pe_project
         static void Main(string[] args)
         {
             Console.WriteLine("Алгоритм Евклида");
+            IM GONNA RUIN THIS PROJECT
             Console.WriteLine("Наибольший общий делитель чисел {0} и {1} равен {2}", 294, 162, GCD(294, 162));
             Console.ReadLine();
         }
